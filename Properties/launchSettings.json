@@ -1,0 +1,30 @@
+{
+    "$schema": "http://json.schemastore.org/launchsettings.json",
+    "iisSettings": {
+      "windowsAuthentication": false,
+      "anonymousAuthentication": true,
+      "iisExpress": {
+        "applicationUrl": "http://localhost:61190",
+        "sslPort": 44331
+      }
+    },
+    "profiles": {
+      "IIS Express": {
+        "commandName": "IISExpress",
+        "launchBrowser": true,
+        "launchUrl": "",
+        "environmentVariables": {
+          "ASPNETCORE_ENVIRONMENT": "Development"
+        }
+      },
+      "OrcaLookupDotNet": {
+        "commandName": "Project",
+        "launchBrowser": true,
+        "launchUrl": "",
+        "applicationUrl": "http://localhost:3000",
+        "environmentVariables": {
+          "ASPNETCORE_ENVIRONMENT": "Development"
+        }
+      }
+    }
+  }
