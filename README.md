@@ -73,8 +73,8 @@ public class OrcaValidationDotNet : ControllerBase
             }
         }
 
-        // return HTTP Status 204 (No Content)
-        return NoContent();
+        // return HTTP Status 200 with no body
+        return Ok("");
     }
 }
 ```
