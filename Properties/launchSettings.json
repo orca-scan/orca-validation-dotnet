@@ -19,9 +19,8 @@
       },
       "OrcaLookupDotNet": {
         "commandName": "Project",
-        "launchBrowser": true,
-        "launchUrl": "",
-        "applicationUrl": "http://localhost:3000",
+        "launchBrowser": false,
+        "applicationUrl": "http://localhost:8888",
         "environmentVariables": {
           "ASPNETCORE_ENVIRONMENT": "Development"
         }
